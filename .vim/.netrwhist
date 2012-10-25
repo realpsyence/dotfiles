@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/etc/X11'
+let g:netrw_dirhist_2='/etc/apt/apt.conf.d'
+let g:netrw_dirhist_3='/etc/X11/Xresources'
+let g:netrw_dirhist_4='/home/logan/AMI_CC/ami-cc4/mesh'
+let g:netrw_dirhist_5='/home/logan/Sensorstar/spotcheck/WAMZ'
+let g:netrw_dirhist_6='/home/logan/Sensorstar/Faurecia/faurecia/surface_morphology/AD7746_code/2channel_read/AD7746_arduino'
+let g:netrw_dirhist_7='/home/logan/Downloads/gwoptics/examples/Graph3D'
+let g:netrw_dirhist_8='/home/logan/Sensorstar/Faurecia/faurecia/surface_morphology/AD7746_code/4channel_read/AD7746_viewer_processing'
