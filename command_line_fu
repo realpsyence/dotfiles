@@ -1,0 +1,14 @@
+rsync -vtcrP --remove-source-files movies/*.iso movies/ISOs/
+
+rsync -vtrPs --iconv=ISO-8859-1,utf-8 --remove-source-files vds/ /media/HITACHI/media/pnm_prtz/ 
+c denotes checksum, s no spacesplitting wildcards, --iconv=ISO-8859-1,utf-8 preserves encoding, W whole files, 
+  --in-place for big files does delta, --size-only
+
+sudo find . -type d -empty -delete 
+  deletes empty directories (useful to run in source directory after rsync)
+
+find . -type f -exec   sh -c "echo -n 'mv \"{}\" ' && echo \'{}\' | tr \* F" \; | sh
+  finds all files in directory and renames using tr (translate) whatever to whatever
+
+wmctrl -r '7s [Running] - Oracle VM VirtualBox' -e 0,3840,0,2560,1647
+  Resized the running Windows 7 vm so named to top left corner of desktop2 with full cinema display resolution...
