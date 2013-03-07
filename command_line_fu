@@ -12,3 +12,12 @@ find . -type f -exec   sh -c "echo -n 'mv \"{}\" ' && echo \'{}\' | tr \* F" \; 
 
 wmctrl -r '7s [Running] - Oracle VM VirtualBox' -e 0,3840,0,2560,1647
   Resized the running Windows 7 vm so named to top left corner of desktop2 with full cinema display resolution...
+
+
+  kindle info:
+  B009A10104031119
+  fionac04b
+
+  framework/mario works for console login
+
+  echo 0 > /sys/devices/platform/mxcintuart.0/uart_clk_state
